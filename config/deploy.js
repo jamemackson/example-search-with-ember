@@ -7,15 +7,10 @@ module.exports = function(deployTarget) {
     // include other plugin configuration that applies to all deploy targets here
   };
 
-  if (deployTarget === 'development') {
-    ENV.build.environment = 'development';
-    // configure other plugins for development deploy target here
-  }
-
-  if (deployTarget === 'staging') {
-    ENV.build.environment = 'production';
-    // configure other plugins for staging deploy target here
-  }
+  ENV.git = {
+    worktreePath: '/tmp/ember-cli-deploy',
+    commitMessage: 'Deployed %@'
+  };
 
   if (deployTarget === 'production') {
     ENV.build.environment = 'production';
