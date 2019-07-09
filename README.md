@@ -25,6 +25,27 @@ You will need the following things properly installed on your computer.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
+
+## approach to challenge
+
+1) implement core logic
+  * `ember new emergent-challenge`
+  * `ember generate route index`
+  * `ember generate controller index` (handle the query param)
+  * define source data as json file (can be easily replaced with real API later)
+  * consume the json data and display on front-end
+  * implement search and persist using url parameter
+2) make it look nice
+  * `ember install ember-bootstrap`
+  * add some simple css to style layout
+3) deploy to AWS S3
+  * `ember install ember-cli-deploy`
+  * configure for S3 static site hosted deployment
+
+
+
+
+
 ### Code Generators
 
 Make use of the many generators for code, try `ember help generate` for more details
