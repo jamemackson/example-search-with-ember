@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'emergent-challenge',
+    modulePrefix: 'example-search-with-ember',
     environment,
     rootURL: '/',
     locationType: 'auto',
