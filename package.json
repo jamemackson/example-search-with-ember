@@ -1,8 +1,8 @@
 {
   "name": "emergent-challenge",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
-  "description": "Small description for emergent-challenge goes here",
+  "description": "A web application that allows searching for software relative to SemVer of the software package.",
   "repository": "",
   "license": "MIT",
   "author": "",
