@@ -1,0 +1,42 @@
+[
+  {
+      "name": "MS Word",
+      "version": "13.2.1."
+  },
+  {
+      "name": "AngularJS",
+      "version": "1.7.1"
+  },
+  {
+      "name": "Angular",
+      "version": "8.1.13"
+  },
+  {
+      "name": "React",
+      "version": "0.0.5"
+  },
+  {
+      "name": "Vue.js",
+      "version": "2.6"
+  },
+  {
+    "name": "Ember.js",
+    "version": "3.10.1"
+  },
+  {
+      "name": "Visual Studio",
+      "version": "2017.0.1"
+  },
+  {
+      "name": "Visual Studio",
+      "version": "2019.1"
+  },
+  {
+      "name": "Visual Studio Code",
+      "version": "1.35"
+  },
+  {
+      "name": "Blazor",
+      "version": "0.7"
+  }
+]
