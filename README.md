@@ -1,4 +1,4 @@
-# emergent-challenge
+# example search with ember
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
@@ -29,7 +29,7 @@ You will need the following things properly installed on your computer.
 ## approach to challenge
 
 1) implement core logic
-  * `ember new emergent-challenge`
+  * `ember new example-search-with-ember`
   * `ember generate route index`
   * `ember generate controller index` (handle the query param)
   * define source data as json file (can be easily replaced with real API later)
