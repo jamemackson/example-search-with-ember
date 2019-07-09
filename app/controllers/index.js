@@ -18,7 +18,6 @@ function coerceIfNeeded(searchValue) {
     if (calculated) {
       return calculated.version;
     }
-    console.log('search after coerce: ', searchVersion);
   }
   return searchValue;
 }

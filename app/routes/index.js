@@ -5,9 +5,7 @@ export default Route.extend({
     const resp = await fetch('software.json');
 
     if (resp.ok) {
-      const data = await resp.json();
-      console.log({ data });
-      return data;
+      return resp.json();
     } else {
       return {
         error: 'no data returned'
