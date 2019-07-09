@@ -1,5 +1,5 @@
 {
-  "name": "emergent-challenge",
+  "name": "example-search-with-ember",
   "version": "0.0.1",
   "private": true,
   "description": "A web application that allows searching for software relative to SemVer of the software package.",
