@@ -1,0 +1,8 @@
+<hr>
+search by version number: {{input value=search placeholder="1.0.5"}}
+<hr>
+<ul>
+  {{#each filteredSoftwareTitles as |software|}}
+    <li>{{software.name}} <span class="muted">{{software.version}}</span></li>
+  {{/each}}
+</ul>
