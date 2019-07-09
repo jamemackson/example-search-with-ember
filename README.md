@@ -38,9 +38,9 @@ You will need the following things properly installed on your computer.
 2) make it look nice
   * `ember install ember-bootstrap`
   * add some simple css to style layout
-3) deploy to AWS S3
-  * `ember install ember-cli-deploy`
-  * configure for S3 static site hosted deployment
+3) deploy to github pages
+  * `ember install ember-cli-deploy ember-cli-deploy-build ember-cli-deploy-git`
+  * configure for deployment to gh-pages branch
 
 
 
