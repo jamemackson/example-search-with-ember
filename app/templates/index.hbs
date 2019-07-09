@@ -1,9 +1,13 @@
 <hr>
-search by version number: {{input value=search placeholder="1.0.5"}}
+<form action="#">
+  {{input value=search placeholder="search by version number, ex: 1.0.5" classNames="form-control"}}
+</form>
 <hr>
-<ul>
+<ul class="list-group list-group-flush">
   {{#each filteredSoftwareTitles as |software|}}
-    <li>{{software.name}} <span class="muted">{{software.version}}</span></li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      {{software.name}}<span class="badge badge-primary badge-pill">{{software.version}}</span>
+    </li>
   {{/each}}
 </ul>
-<span class="muted">displaying {{filteredSoftwareTitles.length}} of {{model.length}} titles</span>
+<small>displaying {{filteredSoftwareTitles.length}} of {{model.length}} titles</small>
