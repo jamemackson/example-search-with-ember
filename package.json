@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "description": "A web application that allows searching for software relative to SemVer of the software package.",
-  "repository": "",
+  "repository": "git@github.com:jamemackson/example-search-with-ember.git",
   "license": "MIT",
   "author": "",
   "directories": {
